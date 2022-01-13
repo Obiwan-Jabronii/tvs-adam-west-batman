@@ -1,0 +1,304 @@
+/* BOILER TEMPLATE */
+/* ----------------------------- */
+/* W&H, PADDING, AND MARGIN */
+/* BACKGROUND,AND COLOR */
+/* BORDER */
+/* BORDER RADIUS */
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+
+* {
+    box-sizing: border-box;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    letter-spacing: .9px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', 'Montserrat', 'Roboto', 'Raleway', sans-serif;
+   
+  }
+  
+  :root {
+    font-size: 62.5%;
+    /* padding-bottom: 100px; */
+  
+    
+    /* CSS HEX */
+  --matte-grape: rgba(55, 48, 61, 0.993);
+  --independence: #4b4a67ff;
+  --maximum-purple: #643a71ff;
+  --amethyst: #8b5fbfff;
+  --french-mauve: #d183c9ff;
+  --charm-pink: #e3879eff;
+  --tickle-me-pink: #f786aaff;
+  --pink: #fec0ceff;
+  
+  /* CSS HEX */
+  --mantis: #7ac74fff;
+  --pistachio: #a1cf6bff;
+  --yellow-crayola: #f6e27fff;
+  --khaki-x-11-light-khaki: #d5d887ff;
+  --flax: #e0c879ff;
+  --terra-cotta: #e87461ff;
+  
+  /* CSS HEX */
+  --manatee: #9f9aa4ff;
+  --pale-pink: #e7cfcdff;
+  --light-gray: #cfd8d7ff;
+  --opal: #b5c9c3ff;
+  --thistle: #cab1bdff;
+  --old-rose: #b97375ff;   
+  --lilac: #be95c4ff;
+  --pink-lavender: #e0b1cbff;
+  --orchid-crayola: #f092ddff;
+  
+  /* CSS HEX */
+  --tea-green: #deefb7ff;
+  --celadon: #98dfafff;
+  --keppel: #5fb49cff;
+  --dark-slate-blue: #414288ff;
+  --palatinate-purple: #682d63ff;
+  
+  /* CSS HEX */
+  --old-burgundy: #463239ff;
+  --beau-blue: #b9d6f2ff;
+  --honolulu-blue: #006daaff;
+  --emerald: #2fbf71ff;
+  --ao-english: #157f1fff;
+  
+  /* CSS HEX */
+  --old-burgundy: #463239ff;
+  --celadon-blue: #37718eff;
+  --sky-blue-crayola: #8ee3efff;
+  --sky-blue: #8acdeaff;
+  --camel: #c4a381ff;
+  --yellow-green-crayola: #bbd686ff;
+  
+  /* CSS HEX */
+  --cultured: #f7f9f9ff;
+  --opal: #bed8d4ff;
+  --medium-turquoise: #78d5d7ff;
+  --baby-blue: #63d2ffff;
+  --green-blue-crayola: #2081c3ff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --chinese-violet: #7f5a83ff;
+  --glossy-grape: #a188a6ff;
+  --silver-metallic: #9da2abff;
+  --medium-aquamarine: #56e39fff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --chinese-violet: #7f5a83ff;
+  --black-shadows: #d5c5c8ff;
+  --pale-pink: #ffdbdaff;
+  --aero-blue: #d0ffd6ff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --blue-ncs: #2e86abff;
+  --middle-red: #e08d79ff;
+  --honeydew: #e0efdeff;
+  --magic-mint: #b3f2ddff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --blue-ncs: #2e86abff;
+  --copper-crayola: #c57b57ff;
+  --tumbleweed: #f1ab86ff;
+  --peach: #f7dba7ff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --blue-ncs: #2e86abff;
+  --pale-silver: #d7cdccff;
+  --white: #ffffffff;
+  --razzmic-berry: #9c528bff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --blue-ncs: #2e86abff;
+  --marigold: #eca72cff;
+  --flame: #ee5622ff;
+  --honeydew: #e8f7eeff;
+  
+  /* CSS HEX */
+  --rich-black-fogra-29: #00171fff;
+  --rose-ebony: #63474dff;
+  --ivory: #fbfff1ff;
+  --light-pink: #edafb8ff;
+  --xanadu: #73877bff;
+  
+  }
+  
+  
+  body {
+  
+  /* W&H, PADDING, AND MARGIN */
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: auto;
+    padding: 12.7em;
+  
+  /* BACKGROUND,AND COLOR */
+    /* background-color: var(--rich-black-fogra-29); */
+    background-color: black;
+    color: var(--ivory);
+    
+  /* BORDER */
+    border: .6rem solid var(--emerald);
+  /* BORDER RADIUS */
+    /* border-radius: 3em; */
+  /* BORDER STYLE */
+  /* TEXT STYLING */
+  /* DISPLAY */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column; 
+    justify-content: space-between;
+    flex-flow: column;
+    /* align-items: center; */
+  }
+
+.container {
+/* W&H, PADDING, AND MARGIN */
+max-width: 100%;
+padding:auto;
+padding: auto;
+/* BACKGROUND,AND COLOR */
+/* background-color: pink; */
+/* BORDER */
+border: 1rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* border-inline-style:initial; */
+/* BORDER STYLE */
+/* border-style:outset; */
+/* TEXT STYLING */
+color: ivory;
+/* DISPLAY */
+/* display: inline-flex;
+flex-wrap: wrap;
+align-content: center;
+flex-direction:column; 
+justify-content:left;
+align-items:center;
+align-content:center; */
+}
+
+.row {
+    /* W&H, PADDING, AND MARGIN */
+/* BACKGROUND,AND COLOR */
+/* background-color: black; */
+/* BORDER */
+border: .2rem solid var(--ivory);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* border-inline-style:initial; */
+/* BORDER STYLE */
+/* border-style:outset; */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+
+.one-column {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.eleven-columns {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.two-columns {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.ten-columns {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.one-third-column {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.two-thirds-column {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
+.one-half-column {
+/* W&H, PADDING, AND MARGIN */
+padding: 2em;
+/* BACKGROUND,AND COLOR */
+background: var(--rich-black-fogra-29);
+/* BORDER */
+border: .6rem solid var(--emerald);
+/* BORDER RADIUS */
+border-radius: 5px;
+/* BORDER STYLE */
+/* TEXT STYLING */
+/* DISPLAY */
+}
+
