@@ -5,37 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/normalize.css">
-    <link rel="stylesheet" href="assets/skeleton.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <script src="https://kit.fontawesome.com/1688115a7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/stylesheets/normalize.css">
+    <link rel="stylesheet" href="public/stylesheets/skeleton.css">
+    <title>Herb|Log</title>
 </head>
-<body>
-<!-- .container is main centered wrapper -->
-<div class="container">
 
-    <!-- columns should be the immediate child of a .row -->
-    <div class="row">
-      <div class="one column">One</div>
-      <div class="eleven columns">Eleven</div>
+<header>
+  <div class="row navbar">
+    <div class="eight columns">
+      <H1><span>Herb</span>|L<i class="fas fa-cannabis cnbs-icon"></i>g</H1>
     </div>
-  
-    <!-- just use a number and class 'column' or 'columns' -->
-    <div class="row">
-      <div class="two columns">Two</div>
-      <div class="ten columns">Ten</div>
+  <!-- navigation bar-->
+    <div class="four columns" id="topnav">
+      <input type="button" value="Search" id="search-btn">
+      <input type="text" placeholder="OG Kush.." id="search-bar">
     </div>
-  
-    <!-- there are a few shorthand columns widths as well -->
-    <div class="row">
-      <div class="one-third column">1/3</div>
-      <div class="two-thirds column">2/3</div>
-    </div>
-    <div class="row">
-      <div class="one-half column">1/2</div>
-      <div class="one-half column">1/2</div>
-    </div>
-  
   </div>
+
+</header>
+<body>
+<!-- photo of searched strain appears here -->
+<div class="container" id="srch-photo">
+</div>
+
+<!-- information results for searched strain -->
+<div class="container">
+  <div class="row" id="strn-formation">
+    <div class="four columns" id="effects">
+      <h4>Effects/Uses</h4>
+    </div>
+    <div class="four columns" id="flavor">
+    <h4>Flavor/Aroma</h4>
+    </div>
+    <div class="four columns" id="reviews">
+    <h4>Reviews</h4>
+    </div>
+  </div>
+
+  <!--this is where strain info goes-->
+  <div class="row" id="strn-formation">
+    <div class="four columns" id="effects-data">
+      <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos sequi, perferendis dolore mollitia asperiores non eligendi minus amet ipsam perspiciatis aspernatur tenetur saepe, maiores obcaecati quidem. Fuga, magni illo!</h6>
+    </div>
+    <div class="four columns" id="flavor-data">
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo saepe velit voluptates doloremque alias, quos sed tenetur nobis facilis ipsum architecto excepturi? Natus fugiat architecto molestiae accusamus, cupiditate modi mollitia.</h6>
+    </div>
+    <div class="four columns" id="reviews-data">
+      <span class="reveiw-heading">Consumer Rating</span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis harum necessitatibus unde velit a, distinctio doloribus quos, illum, maiores deserunt amet facere. Quaerat dicta, ipsa repellendus molestias ducimus maxime quasi?</h6>
+    </div>
+  </div>
+<!--User Comments will appear in this div-->
+  <div class="row chat-container" id="user-comments">
+    <div class="twelve columns">
+      <h1>Share the Buzz:</h1>
+
+      <!--User can enter their comments here-->
+      <div class="chat-container" id="comment-submit">
+        <input type="text" name="createPost" placeholder="Create Post" id="post">
+          <br>
+          <input type="submit" name="submit" value="Send" id="comment-btn">
+        </form>
+      </div>
+    </div>
+
+    <!--user comments appear here-->
+
+      <div class="twelve columns">
+        <div class="chat-container">
+          <img src="/w3images/bandmember.jpg" alt="Avatar">
+          <p>Wow! What a great Strain!</p>
+          <span class="time-right">11:00</span>
+        </div>
+        
+        <div class="chat-container darker">
+          <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+          <p>I know! How did it make you feel?</p>
+          <span class="time-left">11:01</span>
+        </div>
+        
+        <div class="chat-container">
+          <img src="/w3images/bandmember.jpg" alt="Avatar">
+          <p>Pretty Good! Helped me sleep pretty well!</p>
+          <span class="time-right">11:02</span>
+        </div>
+        
+        <div class="chat-container darker">
+          <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+          <p>Awesome, hope my local dispensary will get moore in stock soon.</p>
+          <span class="time-left">11:05</span>
+        </div>
+      </div>
 </body>
 </html>
