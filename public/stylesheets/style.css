@@ -1,0 +1,186 @@
+header{ 
+    margin: 10px 10px 0px 10px;
+    border-bottom: thick double black;
+}
+
+header h1 {
+    margin-left: 5px;
+}
+header h1 span{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: green;
+}
+
+.cnbs-icon{ 
+    size: 5px;
+    color: green;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#topnav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#search-btn {
+    background-color: green;
+    color: black;
+}
+
+#search-bar {
+    width: 350px;
+    
+}
+
+/*search result photo*/
+#srch-photo {
+    border-style: solid;
+    border-color: green;
+    color: blue;
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Effects && Flavor && Reviews */
+
+#strn-formation {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#strn-formation h4{
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color:green ;
+    text-align: center;
+}
+
+#effects {
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#flavor {
+    border-color: green;
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#reviews {
+    border-color: green;
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#effects-data {
+    border-color: green;
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#flavor-data {
+    border-color: green;
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#reviews-data {
+    border-color: green;
+    border: 2px solid green;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*comments section */
+#user-comments {
+    border-style: solid;
+    border-color: green;
+    margin-top: 15px;
+}
+
+#user-comments h1 {
+    text-align: center;
+}
+
+
+#comment-btn {
+    background-color: green;
+    color: black;
+}
+
+#comment-submit{
+    border-style: solid;
+    border-color: black;
+}
+
+/* Chat containers */
+.chat-container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  /* Darker chat container */
+  .chat-conatiner.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  /* Clear floats */
+  .chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .chat-container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
