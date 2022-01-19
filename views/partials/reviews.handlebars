@@ -1,0 +1,12 @@
+<div class=" row review-container">
+    {{#each this}}
+    <section class="four columns review-container">
+        <div class="meta">
+            {{user.username}} on {{created_at}}
+        </div>
+        <div class="text">
+            {{review_text}}
+        </div>
+    </section>
+    {{/each}}
+</div>

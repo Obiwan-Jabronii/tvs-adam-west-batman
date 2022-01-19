@@ -1,23 +1,23 @@
 const User = require('./User');
-const Reviews = require('./Reviews');
+const Review = require('./Review');
 const Strain = require('./Strain');
 
-User.hasMany(Reviews, {
+User.hasMany(Review, {
     foreignKey: 'user_id'
 });
 
-Reviews.belongsTo(User, {
+Review.belongsTo(User, {
     foreignKey: 'user_id',
     onDelete: 'SET NULL'
 });
 
-Strain.hasMany(Reviews, {
+Strain.hasMany(Review, {
 
 })
 
-Reviews.belongsTo(Strain, {
+Review.belongsTo(Strain, {
 
 })
 
 
-module.exports = { User, Reviews, Strain };
+module.exports = { User, Review, Strain };
