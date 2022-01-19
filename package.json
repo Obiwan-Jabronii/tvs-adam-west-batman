@@ -2,9 +2,13 @@
   "name": "tvs-adam-west-batman",
   "version": "1.0.0",
   "description": "Group Seven Project 2",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+<<<<<<< HEAD
+    "test": "echo \"Error: no test specified\" && exit 1",
+=======
+>>>>>>> 36e516a7d4ce4492a829f2097ece7f6bc9b719ee
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/pwfoote/tvs-adam-west-batman/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/pwfoote/tvs-adam-west-batman#readme",
   "dependencies": {
     "express": "^4.17.2",
@@ -23,4 +28,7 @@
     "mysql2": "^2.3.3",
     "sequelize": "^6.13.0"
   }
+=======
+  "homepage": "https://github.com/pwfoote/tvs-adam-west-batman#readme"
+>>>>>>> 73035238ca57fd81639400d717258c58a7a9c568
 }
