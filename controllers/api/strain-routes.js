@@ -72,7 +72,7 @@ router.get('/', (req, res) => {
       });
   });
   
-  router.strain('/', (req, res) => {
+  router.post('/', (req, res) => {
     Review.create({
       title: req.body.title,
       review_url: req.body.review_url,

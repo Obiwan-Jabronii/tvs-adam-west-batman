@@ -55,6 +55,8 @@ User.init(
                 let birthDate = new Date(user.age);
                 if (ageVerify < birthDate) {
                     throw new Error('Must be 21 to enter website');
+                } else {
+                    return;
                 }
             }
         },
