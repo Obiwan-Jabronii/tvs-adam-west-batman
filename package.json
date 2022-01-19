@@ -93,7 +93,6 @@
   "bugs": {
     "url": "https://github.com/pwfoote/tvs-adam-west-batman/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/pwfoote/tvs-adam-west-batman#readme",
   "dependencies": {
     "express": "^4.17.2",
@@ -101,7 +100,4 @@
     "mysql2": "^2.3.3",
     "sequelize": "^6.13.0"
   }
-=======
-  "homepage": "https://github.com/pwfoote/tvs-adam-west-batman#readme"
->>>>>>> 73035238ca57fd81639400d717258c58a7a9c568
 }
